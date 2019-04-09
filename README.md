@@ -34,4 +34,5 @@ HOW TO RUN
 - Clone repo
 - Install packages
 - go to root directory
+- setup environment using the .env.example
 - run npm start
