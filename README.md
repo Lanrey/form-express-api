@@ -28,10 +28,15 @@ The file can be found <services/analytical_service.js>
 
 3. Pusher Service - This service provides real time updates to the web application, new data is computed at an interval and then sent to the web application.
 
+Also Google Cloud Platform was used in deploying the application
+
 
 HOW TO RUN
 
 - Clone repo
 - Install packages
 - go to root directory
+- setup environment using the .env.example
 - run npm start
+
+- URL : "https://form-plus-express-api.appspot.com/"

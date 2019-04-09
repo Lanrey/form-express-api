@@ -31,7 +31,7 @@ router.get('/', function(req, res, next) {
   require('../services/analytical_service').exportResult()
   .then(computation => res.json({ computation }));
 
-  //setInterval(nextData, 10000)
+  setInterval(nextData, 1000000)
 
 
 });
