@@ -39,4 +39,3 @@ HOW TO RUN
 - setup environment using the .env.example
 - run npm start
 
-- URL : "https://form-plus-express-api.appspot.com/"
