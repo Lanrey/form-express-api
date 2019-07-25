@@ -1,4 +1,4 @@
-# form-express-api
+# Real Time Notification Service
 
 
 This backend application was built with express, because of its minimal approach to getting work done.
