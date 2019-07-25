@@ -1,7 +1,7 @@
 # Real Time Notification Service
 
 
-This backend application was built with express, because of its minimal approach to getting work done.
+This backend application was built with express, because of its minimalist approach to getting work done.
 
 The Overall architecture for the backend application consists of three main services:
 
@@ -10,14 +10,12 @@ The Overall architecture for the backend application consists of three main serv
 
    WHY MONGODB?
 
-   - Since there is a constraint of getting data every second, and the values retrieved from the os.cpus() method is an        
-     Object. Creating the objects and having to create relationship mappings as per (Server => Cores) will result in more 
+   - Since there is a constraint of getting data every second, and the values retrieved from the os.cpus() method are      
+     Objects. Creating the objects and having to create relationship mappings as per (Server => Cores) will result in more 
      
      computations, as opposed to storing directly has objects, which is what mongodb is good at.
 
-   Also the CPU Service is a **child process** separate from the parent process, this is a separation of concern, as computating 
-   
-   an intensive calculation within the same process as the other services isn't a scalable thing to do.
+   Also the CPU Service is a **child process** separate from the parent process, this is a separation of concern, as computating an intensive calculation within the same process as the other services isn't a scalable thing to do.
 
 The file for the CPU service can be found <services/cpu_service.js>
 
