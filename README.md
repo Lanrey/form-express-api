@@ -1,4 +1,4 @@
-# Real Time Notification Service
+# Real Time Resource Utilization Service
 
 
 This backend application was built with express, because of its minimalist approach to getting work done.
